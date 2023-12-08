@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Signika+Negative&display=swap');
+
+body {
+  background: rgb(13, 159, 130)), 255, 255)ece;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+#hero{
+  height: 100vh;
+}
+.content{
+  text-align: center;
+  margin-top: 38vh;
+  transform: translateZ(0);
+}
+.hello{
+  margin-bottom: -5px;
+  margin-right: 400px;
+  font-family: 'Merienda', cursive;
+}
+.hero-name{
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Merienda', cursive;
+  letter-spacing: -2px;
+}
+.title{
+  margin-top: -12px;
+  font-family: 'Bree Serif', serif;
+  font-weight: 500;
+}
+.description{
+  margin-top: 12px;
+  padding: 0 250px;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Signika Negative', sans-serif;
+}
