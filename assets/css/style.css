@@ -13,8 +13,10 @@ body {
 }
 .content{
   text-align: center;
-  margin-top: 38vh;
+  margin-top: 40vh;
+  margin-bottom: 40vh;
   transform: translateZ(0);
+  height: 20vh;
 }
 .hello{
   margin-bottom: -5px;
