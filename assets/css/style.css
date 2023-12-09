@@ -2,11 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Signika+Negative&display=swap');
 
-body {
-  background: rgb(13, 159, 130)), 255, 255)ece;
-  overflow-x: hidden;
-  overflow-y: scroll;
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #7cc576;
+}
+
+a:hover {
+  color: #9ed49a;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
 
 #hero{
   height: 100vh;
@@ -28,4 +57,16 @@ body {
   font-weight: 600;
   font-family: 'Merienda', cursive;
   letter-spacing: -2px;
+}
+
+
+.link{
+  padding: 5px 10px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+  transition: 0.5s;
+}
+.link:hover{
+  letter-spacing: 2px;
 }
