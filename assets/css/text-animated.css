@@ -40,13 +40,13 @@
 
 @keyframes words {
   0%,20%{
-      content: "Developer,";
+      content: "Software Tester,";
   }
   21%,40%{
-      content: "Teacher,";
+      content: "Web Developer,";
   }
   41%,60%{
-      content: "Youtuber,";
+      content: "Web Designer,";
   }
   61%,80%{
       content: "Writer,";
